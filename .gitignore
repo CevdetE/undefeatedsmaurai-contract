@@ -1,0 +1,10 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+sgobsmintdapp
+
+#Hardhat files
+cache
+artifacts
