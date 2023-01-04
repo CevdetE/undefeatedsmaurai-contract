@@ -14,7 +14,7 @@ contract Undefeatedsamurai is ERC721A, Ownable, ReentrancyGuard {
 
     // This much samurais, be ready!
     uint256 public freeSamuraiSupply = 1000;
-    uint256 public almostFreeSamuraiSupply = 3200;
+    uint256 public almostFreeSamuraiSupply = 2200;
 
     // Being a samurai has price!
     uint256 public spliffCost = 0.0069 ether;
