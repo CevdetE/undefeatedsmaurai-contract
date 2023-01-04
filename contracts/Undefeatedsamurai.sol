@@ -77,7 +77,7 @@ contract Undefeatedsamurai is ERC721A, Ownable, ReentrancyGuard {
             : "";
     }
 
-    function redeemweedprofits() public payable onlyOwner {
+    function redeemprofits() public payable onlyOwner {
 	    (bool success, ) = payable(msg.sender).call{value: address(this).balance}("");
 	    require(success);
 	}
